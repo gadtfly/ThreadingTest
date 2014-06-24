@@ -1,0 +1,5 @@
+.comment
+  = comment.body
+  = link_to 'Delete', comment, method: :delete
+  = render partial: 'form', locals: { comment: comment.children.new }
+  = render comment.children(true)   # not ideal...
