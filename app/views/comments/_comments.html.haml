@@ -1,0 +1,4 @@
+- comments.each do |comment, comments|
+  .comment
+    = render comment
+    = render partial: 'comments', locals: { comments: comments }

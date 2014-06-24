@@ -1,6 +1,6 @@
 class CommentsController < ApplicationController
   def index
-    @comments = Comment.where(parent: nil)
+    @comments = Comment.hash_tree
   end
 
   def create

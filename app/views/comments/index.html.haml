@@ -1,2 +1,2 @@
-= render @comments
+= render partial: 'comments', locals: { comments: @comments }
 = render partial: 'form', locals: { comment: Comment.new }
