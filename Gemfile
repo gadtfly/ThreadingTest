@@ -40,3 +40,4 @@ gem 'spring',        group: :development
 
 gem 'haml-rails'
 gem 'closure_tree'
+gem 'rspec-rails'
